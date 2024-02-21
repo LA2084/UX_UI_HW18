@@ -3,108 +3,125 @@
 
 <head>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <section>
-  <header class="navigation">
-    <div class="inline-block logo">
-      <img src="images/Picture1.png" alt="office building" width="196" height="24">
-    </div>
 
-    <div class="topnav">
-      <ul>
-        <li><a href="/About/">About</a></li>
-        <li><a href="/Skills/">Skills</a></li>
-        <li><a href="/Work/">Work</a></li>
-        <li><a href="/Contact/">Contact</a></li>
-      </ul>
+  <header>
+    <div class="Logo">
+      <img src="images/Picture1.png" alt="Logo">
     </div>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href=“#work”>WORK</a>
+      <a href=“#contact”>CONTACT</a>
+    </nav>
   </header>
-</section>
 
-  <section>
-    <div class="HeroSection">
-      <div class="heroImg">
-        <img src="images/liz_allen 1.jpg" alt="woman standing up" width="15%" class="circle-image">
+  <section class="hero-section">
+    <div class="floating-block">
+      <img class="round-image" src="images/liz_allen 1.jpg" alt="Woman standing">
+      <h1>Hi, I'm Liz Allen.</h1>
+      <div class="wrapper">
+        <p class="hero-sentence">I'm a passionate UX Designer that enjoys designing beautiful and simple interactive
+          experience for all users.</p>
       </div>
-      <div class="content">
-        <h1>Hi! I'm Liz Allen</h1>
-        <p>I'm a passionate UX Designer that enjoys creating beautiful and intuitive experiences for all users.</p>
-        
-        <button class="Resume-button">DOWNLOAD MY RESUME</button>
-      </div>
+      <button class="hero-button">DOWNLOAD RESUME</button>
     </div>
   </section>
 
-  <section class="MyUXSkillsSection">
-    <div class="MyUXSkills">
-      <h2>MY UX SKILLS</h2>
+  <section class="MyUxSkills">
+    <h2>MY UX SKILLS</h2>
+    <div class="column">
+
+      <div class="content-section">
+        <img src="images/icon1.png" alt="Image 1">
+        <h3>DATA SYNTHESIS + ANALYSIS</h3>
+        <p>I am skilled at analyzing large sets of information and data and finding themes and actionable insights.</p>
+      </div>
+
+      <div class="content-section">
+        <img src="images/icon2.png" alt="Image 1">
+        <h3>INFORMATION ARCHITECTURE</h3>
+        <p>I love organizing information into related topics and content to increase findability of important concepts and create a highly intuitive experience for users.</p>
+      </div>
+
+      <div class="content-section">
+        <img src="images/icon3.png" alt="Image 1">
+        <h3>LAYOUT DESIGN</h3>
+        <p>One of my greatest passions in life is to create visually pleasing products both online and offline that increase functionality and aesthetics of an experience.</p>
+      </div>
+
     </div>
-    <section class="section1">
-      <div class="inline-block icon1">
-        <img src="images/icon1.png" alt="office building" width="100" height="100">
+  </section>
+
+  <section class="MyWork">
+    <div class="background-color">
+      <h2>MY WORK</h2>
+
+      <div class="container">
+
+        <div class="content-sectiona">
+          <div class="circle-background1">
+            <img src="images/Hmong.png" alt="Image 1">
+          </div>
+        </div>
+
+        <div class="content-sectiona">
+          <h3>HMONG WEBSITE REDESIGN</h3>
+          <p>A redesign to bring forward important content, optimize navigation for to help users find key services,
+            and
+            visual illustrate how donations are making a positive impact on the community.</p>
+          <button class="view-project1">VIEW PROJECT</button>
+        </div>
+
+        <div class="content-sectiona">
+          <div class="circle-background2">
+            <img src="images/NPS.png" alt="Image 1">
+          </div>
+        </div>
+
+        <div class="content-sectiona">
+          <h3>NPS WEBSITE REDESIGN</h3>
+          <p>The current National Park Service website had too many steps for users to take to find parks and other amenities. The goal of this project was to increase findability and intuitiveness of the site.</p>
+          <button class="view-project2">VIEW PROJECT</button>
+        </div>
+
+        <div class="content-sectiona">
+          <div class="circle-background3">
+            <img src="images/Freetime.png" alt="Image 1">
+          </div>
+        </div>
+
+        <div class="content-sectiona">
+          <h3>FREETIME MOBILE CASE STUDY</h3>
+          <p>This case study walks through the creation of helping busy adults make the most of their free minutes by creating an app allowing them to easily find nearby activities they enjoy.</p>
+          <button class="view-project3">VIEW PROJECT</button>
+        </div>
+
       </div>
-      <h3>DATA SYNTHESIS + ANALYSIS</h3>
-      <p>I am skilled at analyzing large sets of information and data and finding themes and actionable insights.</p>
 
-      <div class="inline-block icon2">
-        <img src="images/icon2.png" alt="office building" width="100" height="100">
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-section">
+      <div class="Logo">
+        <img src="images/Picture1.png" alt="Logo">
       </div>
-      <h3>INFORMATION ARCHITECTURE</h3>
-      <p>I love organizing information into related topics and content to increase findability of important concepts and
-        create a highly intuitive experience for users.</p>
-
-      <div class="inline-block icon3">
-        <img src="images/icon3.png" alt="office building" width="100" height="100">
-      </div>
-      <h3>LAYOUT DESIGN</h3>
-      <p>One of my greatest passions in life is to create visually pleasing products both online and offline that
-        increase functionality and aesthetics of an experience.</p>
-    </section>
-
-    <section class="MyWorkSection">
-      <div class="MyWork">
-        <h2> MY WORK</h2>
-      </div>
-      <section class="section2">
-        <div class="inline-block Hmong">
-          <img src="images/Hmong.png" alt="office building" width="150" height="100">
-        </div>
-        <h3>HMONG REDESIGN</h3>
-        <p>A redesign to bring forward important content, optimize navigation for to help users find key services, and
-          visual illustrate how donations are making a positive impact on the community.</p>
-        <button class="view-project1">VIEW PROJECT</button>
-        </div>
-        <div class="inline-block NPS">
-          <img src="images/NPS.png" alt="office building" width="150" height="100">
-        </div>
-        <h3>NATIONAL PARKS</h3>
-        <p>The current National Park Service website had too many steps for users to take to find parks and other
-          amenities. The goal of this project was to increase findability and intuitiveness of the site.</p>
-        <button class="view-project2">VIEW PROJECT</button>
-        </div>
-
-        <div class="inline-block freetime">
-          <img src="images/Freetime.png" alt="office building" width="80" height="150">
-        </div>
-        <h3>FREETIME MOBILE APP STUDY</h3>
-        <p>This case study walks through the creation of helping busy adults make the most of their free minutes by
-          creating an app allowing them to easily find nearby activities they enjoy.</p>
-        <button class="view-project3">VIEW PROJECT</button>
-        </div>
-
-      </section>
-    </section>
-
-    <footer class="footer">
-      <ul>
-        <li><a href="/About/">About</a></li>
-        <li><a href="/Skills/">Skills</a></li>
-        <li><a href="/Work/">Work</a></li>
-        <li><a href="/Contact/">Contact</a></li>
-      </ul>
-    </footer>
+      <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href=“#work”>WORK</a>
+        <a href=“#contact”>CONTACT</a>
+      </nav>
+    </div>
+  </footer>
 
 </body>
 

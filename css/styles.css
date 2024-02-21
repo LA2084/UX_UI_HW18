@@ -1,176 +1,199 @@
 body {
     background-color: #F5F5F5;
-.img {border-radius: 50;}
-}
-.navigation {
-    background-color: #003049;
-    padding: 20px;
-}
-.navigation a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.topnav {
-    text-align: right;
-}
-.topnav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.topnav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-.HeroSection {
-    display:flex;
-    flex-direction: column;
-    align-self: center;
-    background-color: white;
-}
-.heroImg {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-.circle-image {
-    border-radius: 50%;
-}
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
-    font-size: 64px;
-}
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
-}
-.section1 {
-    column-count: 3;
-    column-gap: 40px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    background-size: 100px;
-    margin-bottom: 40px;
-}
-.MyUXSkillsSection {
-    background-color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
 }
 
-.MyUXSkills {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
+@font-face {
+    font-family: Inter;
+    src: url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
 }
-.MyWorkSection {
+
+header {
     background-color: #003049;
+    height: 60px;
     padding: 20px;
 }
-.MyWork {
-    color: #F5F5F5;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align:center;
+
+.Logo {
+    float: left;
 }
-.section2 {
-    margin-left: 500px;
+
+.Logo img {
+    height: 30px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
     color: #F5F5F5;
-    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-emphasis-style: bold;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.hero-section {
+    text-align: center;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.hero-sentence {
+    font-family: 'Inter', sans-serif;
+    word-wrap: break-word;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.5;
+}
+
+.hero-section h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+}
+
+.wrapper {
+    word-wrap: break-word;
+}
+
+.hero-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #EA3546;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 75px;
+}
+
+.floating-block {
+    background-color: white;
+    background-position: center;
+    margin-top: 80px;
     margin-bottom: 40px;
-    align-items:flex-start;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 50px;
 }
-.inline-block Hmong {
-    padding: 20px;
-}
-.Resume-button {
-    background-color: #EA3546;
-    border: none;
-    color: white;
-    padding: 10px 20px;
+
+.MyUxSkills h2 {
+    justify-content: center;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 60px;
 }
+
+.column {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-section {
+    flex: 1;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.MyWork h2 {
+    justify-content: center;
+    text-align: center;
+    color: #F5F5F5;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.background-color {
+    background-color: #003049;
+}
+
+.circle-background1 {
+    background-color: #EA3546;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.content-sectiona {
+    color: white;
+    padding-left: 100px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
 .view-project1 {
-    background-color: #EA3546;
-    border: none;
-    color: white;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    background-color: #EA3546;
+    color: white;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 75px;
 }
 .view-project2 {
-    background-color: #F86624;
-    border: none;
-    color: white;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    background-color: #F86624;
+    color: white;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 60px;   
+    margin-top: 20px;
+    margin-bottom: 75px; 
+}
+.circle-background2 {
+    background-color: #F86624;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .view-project3 {
-    background-color: #43BCCD;
-    border: none;
-    color: white;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    background-color: #43BCCD;
+    color: white;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 60px;  
-}
-.p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    width: 5px;
-    text-align: center;
-    margin-bottom: 60px;
-    
-}
-.footer {
-    background-color: #003049;
-    padding: 20px; 
-}
-footer a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.footer li {
-    display: inline-block;
-    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 75px; 
+} 
+.circle-background3 {
+    background-color: #43BCCD;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #003049;
+    height: 60px;
+    padding: 20px;
+    border: 1px solid white;
 }
