@@ -51,17 +51,15 @@ nav a {
 
 .hero-sentence {
     font-family: 'Inter', sans-serif;
-    word-wrap: break-word;
     font-size: 24px;
     margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
     line-height: 1.5;
+    text-align: center;
 }
 
 .hero-section h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: 64px;
 }
 
 .wrapper {
@@ -83,95 +81,86 @@ nav a {
     background-color: white;
     background-position: center;
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     margin-left: 30%;
     margin-right: 30%;
     line-height: 50px;
 }
-
-.MyUxSkills h2 {
-    justify-content: center;
+h2 {
     text-align: center;
-}
-
-.column {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.content-section {
-    flex: 1;
-    justify-content: center;
-    text-align: left;
+    font-size: 48px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
-
-.MyWork h2 {
-    justify-content: center;
-    text-align: center;
-    color: #F5F5F5;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
-.background-color {
-    background-color: #003049;
-}
-
-.circle-background1 {
-    background-color: #EA3546;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.flexContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
 }
-
-.container {
+#mySkills {
+    background-color: white;
+    padding-bottom: 100px;
+}
+.skillCard {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+    padding-bottom: 60px;
 }
-.content-sectiona {
-    color: white;
-    padding-left: 100px;
-    padding-right: 20px;
-    justify-content: center;
+.icon {
+    width: 100px;
+    height: auto;
+    margin-right: 5px;
 }
-
-.view-project1 {
-    padding: 10px 20px;
-    font-size: 18px;
+h3 {
+    font-size: 24px;
+}
+#myWork-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content 100px 300px;
+    background-color: #003049;
+    color: #F5F5F5;
+    gap: 10px;
+}
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 50%;
+    justify-items: center
+}
+p {
+    max-width: 400px;
+    font-size: 24px;
+}
+.circle-background1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     background-color: #EA3546;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 75px;
-}
-.view-project2 {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #F86624;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 75px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .circle-background2 {
-    background-color: #F86624;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    background-color: #F86624;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.view-project3 {
+.circle-background3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #43BCCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
     padding: 10px 20px;
     font-size: 18px;
     background-color: #43BCCD;
@@ -179,21 +168,29 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 75px; 
-} 
-.circle-background3 {
-    background-color: #43BCCD;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-footer {
+.view-project1 {
+    background-color: #EA3546;
+}
+.view-project2 {
+    background-color: #F86624;
+}
+h4 {
+    text-align: center;
+    font-size: 24px;
+}
+.footer-section {
     background-color: #003049;
     height: 60px;
     padding: 20px;
     border: 1px solid white;
+    border-top-width: 500px;
+}
+@media only screen and (max-width: 600) {
+    #flexContainer {
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+    }
 }
